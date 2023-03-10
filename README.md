@@ -9,17 +9,17 @@ $csv = new Csv('data/your_file.csv');
 #### Return Array
 
 ```
-$csv -> getAsArray();
+$csv->getAsArray();
 ```
 
 #### Return Json
 
 ```
-$csv -> getAsJson();
+$csv->getAsJson();
 ```
 
 #### Return HTML table
 
 ```
-$csv -> getAsHtmlTable();
+$csv->getAsHtmlTable();
 ```
