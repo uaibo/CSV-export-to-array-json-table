@@ -1,9 +1,13 @@
 # CSV-export-to-array-json-table
 
-#### Initialize
-
+##### Initialize
 ```
 $csv = new Csv('data/your_file.csv');
+```
+
+##### or also specify the CSV delimiter:
+```
+$csv = new Csv('data/your_file.csv', ';');
 ```
 
 #### Return Array
