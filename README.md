@@ -2,16 +2,24 @@
 
 #### Initialize
 
+```
 $csv = new Csv('data/your_file.csv');
+```
 
-##### Return Array
+#### Return Array
 
+```
 $csv -> getAsArray();
+```
 
-##### Return Json
+#### Return Json
 
+```
 $csv -> getAsJson();
+```
 
-##### Return HTML table
+#### Return HTML table
 
+```
 $csv -> getAsHtmlTable();
+```
