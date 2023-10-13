@@ -3,7 +3,7 @@
 class Csv {
 
     // customize these values
-    private $filename = null; //'your_file_path.csv';
+    private $filename = 'list.csv'; //'your_file_path.csv';
     private $delimiter = ';';
     private $first_row_is_headers = true;
     private $key_prepend = "col_";
@@ -78,7 +78,7 @@ class Csv {
     function setContent($row)
     {
         $content_row = [];
-        foreach($row as $index=>$val)
+        foreach((array)$row as $index=>$val)
         {
             if( !count($this->columns_dirty) )
             {
